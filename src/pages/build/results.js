@@ -151,7 +151,7 @@ export class Results extends React.Component {
 
     return (
       <PageContent fluid className="build">
-        <BuildPanel repo={repo} build={build} job={job}>
+        <BuildPanel repo={repo} build={build} job={job+1}>
           <details open>
             <summary></summary>
             <div>
